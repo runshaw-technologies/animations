@@ -1,29 +1,3 @@
-[![AOS - Animate on scroll library](https://s32.postimg.org/ktvt59hol/aos_header.png)](http://michalsnik.github.io/aos/)
-
-[![NPM version](https://img.shields.io/npm/v/aos/next.svg?style=flat)](https://npmjs.org/package/aos)
-[![NPM downloads](https://img.shields.io/npm/dm/aos.svg?style=flat)](https://npmjs.org/package/aos)
-[![Build Status](https://travis-ci.org/michalsnik/aos.svg?branch=master)](https://travis-ci.org/michalsnik/aos)
-[![Gitter](https://badges.gitter.im/michalsnik/aos.svg)](https://gitter.im/michalsnik/aos?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/michalsnik.svg?style=social)](https://twitter.com/michalsnik) [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/home?status=AOS%20-%20Animate%20on%20Scroll%20library%0Ahttps%3A//github.com/michalsnik/aos)
-
-## :exclamation::exclamation::exclamation: This is README for aos@next :exclamation::exclamation::exclamation:
-
-For last stable release (v2) go [here](https://github.com/michalsnik/aos/tree/v2)
-
----
-### 🚀 [Demo](http://michalsnik.github.io/aos/)
-
-### 🌟 Codepen Examples
-- [Different built-in animations](http://codepen.io/michalsnik/pen/WxNdvq)
-- [With anchor setting in use](http://codepen.io/michalsnik/pen/jrOYVO)
-- [With anchor-placement and different easings](http://codepen.io/michalsnik/pen/EyxoNm)
-- [With simple custom animations](http://codepen.io/michalsnik/pen/WxvNvE)
-
-👉 To get a better understanding how this actually works, I encourage you to check [my post on CSS-tricks](https://css-tricks.com/aos-css-driven-scroll-animation-library/).
-
----
-
 ## ⚙ Installation
 
 ### Basic
@@ -55,12 +29,6 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
 ```
-
-In order to make it work you'll have to make sure your build process has configured styles loader, and bundles it all correctly.
-If you're using [Parcel](https://parceljs.org/) however, it will work out of the box as provided.
-
----
-
 
 ## 🤔 How to use it?
 
@@ -115,8 +83,6 @@ And adjust behaviour by using `data-aos-*` attributes:
   >
   </div>
 ```
-
-[See full list of all animations, easings and anchor placements](https://github.com/michalsnik/aos#animations)
 
 #### Anchor
 
@@ -350,9 +316,3 @@ Example usage:
   * ease-in-quart
   * ease-out-quart
   * ease-in-out-quart
-
----
-
-## ❔Questions
-
-If you found a bug, have a question or an idea, please check [AOS contribution guide](CONTRIBUTING.md) and don't hesitate to create new issues.
